@@ -1,0 +1,48 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Generated local runtime databases and backups
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+*.backup.db
+*.rebuilt.db
+
+# Local secrets/configuration
+.env
+.env.*
+!.env.example
+
+# IDE and editor metadata / temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and generated test/coverage artifacts
+*.log
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+pytest-report.xml

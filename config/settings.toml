@@ -1,0 +1,7 @@
+# These are demonstration parameters, not clinical cutoffs.
+similarity_threshold = 0.20
+max_segment_length = 2
+
+[segment_labels]
+effective_mean_min = 0.5
+problematic_mean_max = -0.5

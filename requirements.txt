@@ -1,0 +1,16 @@
+# Exact dependency versions validated in Stage 7 on Python 3.12.3.
+numpy==2.5.4; python_version >= "3.12"
+pandas==3.1.0; python_version >= "3.12"
+scikit-learn==1.9.1; python_version >= "3.12"
+matplotlib==3.11.2; python_version >= "3.12"
+
+# Python 3.10/3.11-compatible ranges; pip selects the newest supported patch.
+numpy>=2.2.6,<2.3.0; python_version < "3.12"
+pandas>=2.3.3,<3.0; python_version < "3.12"
+scikit-learn>=1.7.2,<1.8.0; python_version < "3.12"
+matplotlib>=3.10.8,<3.11.0; python_version < "3.12"
+
+streamlit==1.66.1; python_version >= "3.11"
+streamlit>=1.65.0,<1.66.0; python_version < "3.11"
+pytest==9.2.0
+tomli>=2.5.0,<3.0; python_version < "3.11"

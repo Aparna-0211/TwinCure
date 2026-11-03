@@ -1,0 +1,13 @@
+{
+  "dataset_label": "SYNTHETIC_EDUCATIONAL_ONLY",
+  "description": "Illustrative software-test rules only; not a clinical protocol.",
+  "sequence_rules": [
+    {"from_category": "OBSERVATION", "to_category": "REVIEW", "rule_type": "allowed", "rule_note": "Synthetic example sequence rule."},
+    {"from_category": "REVIEW", "to_category": "SUPPORT", "rule_type": "allowed", "rule_note": "Synthetic example sequence rule."}
+  ],
+  "compatibility_rules": [
+    {"category_a": "OBSERVATION", "category_b": "REVIEW", "status": "compatible", "rule_note": "Synthetic example compatibility rule."},
+    {"category_a": "REVIEW", "category_b": "SUPPORT", "status": "compatible", "rule_note": "Synthetic example compatibility rule."},
+    {"category_a": "OBSERVATION", "category_b": "SUPPORT", "status": "unknown", "rule_note": "No explicit synthetic rule for this pair."}
+  ]
+}

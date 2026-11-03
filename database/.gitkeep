@@ -1,0 +1,1 @@
+This directory holds the locally generated SQLite database. Runtime database files are ignored by Git.

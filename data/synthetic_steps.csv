@@ -1,0 +1,25 @@
+step_id,patient_id,step_order,step_category,step_description,step_outcome,outcome_notes
+ST001A,SYN001,1,OBSERVATION,Example initial observation recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST001B,SYN001,2,REVIEW,Example follow-up review recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST001C,SYN001,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,0,Neutral constructed label
+ST002A,SYN002,1,OBSERVATION,Example initial observation recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST002B,SYN002,2,REVIEW,Example follow-up review recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST002C,SYN002,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,-1,Constructed negative example label; not clinical evidence
+ST003A,SYN003,1,OBSERVATION,Example initial observation recorded in a synthetic journey,-1,Constructed negative example label; not clinical evidence
+ST003B,SYN003,2,REVIEW,Example follow-up review recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST003C,SYN003,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,-1,Constructed negative example label; not clinical evidence
+ST004A,SYN004,1,OBSERVATION,Example initial observation recorded in a synthetic journey,0,Neutral constructed label
+ST004B,SYN004,2,REVIEW,Example follow-up review recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST004C,SYN004,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,0,Neutral constructed label
+ST005A,SYN005,1,OBSERVATION,Example initial observation recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST005B,SYN005,2,REVIEW,Example follow-up review recorded in a synthetic journey,0,Neutral constructed label
+ST005C,SYN005,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST006A,SYN006,1,OBSERVATION,Example initial observation recorded in a synthetic journey,-1,Constructed negative example label; not clinical evidence
+ST006B,SYN006,2,REVIEW,Example follow-up review recorded in a synthetic journey,-1,Constructed negative example label; not clinical evidence
+ST006C,SYN006,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST007A,SYN007,1,OBSERVATION,Example initial observation recorded in a synthetic journey,0,Neutral constructed label
+ST007B,SYN007,2,REVIEW,Example follow-up review recorded in a synthetic journey,-1,Constructed negative example label; not clinical evidence
+ST007C,SYN007,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,0,Neutral constructed label
+ST008A,SYN008,1,OBSERVATION,Example initial observation recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST008B,SYN008,2,REVIEW,Example follow-up review recorded in a synthetic journey,1,Constructed positive example label; not clinical evidence
+ST008C,SYN008,3,SUPPORT,Example supportive follow-up entry in a synthetic journey,1,Constructed positive example label; not clinical evidence

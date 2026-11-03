@@ -1,0 +1,9 @@
+patient_id,age_group,disease,symptoms_text,journey_outcome,dataset_label
+SYN001,50-59,Heart Disease,chest discomfort fatigue,1,SYNTHETIC_EDUCATIONAL_ONLY
+SYN002,60-69,Heart Disease,chest discomfort shortness of breath,1,SYNTHETIC_EDUCATIONAL_ONLY
+SYN003,50-59,Heart Disease,chest discomfort fatigue dizziness,-1,SYNTHETIC_EDUCATIONAL_ONLY
+SYN004,40-49,Heart Disease,shortness of breath fatigue,0,SYNTHETIC_EDUCATIONAL_ONLY
+SYN005,70-79,Heart Disease,chest discomfort dizziness,1,SYNTHETIC_EDUCATIONAL_ONLY
+SYN006,60-69,Heart Disease,shortness of breath fatigue dizziness,-1,SYNTHETIC_EDUCATIONAL_ONLY
+SYN007,50-59,Heart Disease,unrelated symptom example,0,SYNTHETIC_EDUCATIONAL_ONLY
+SYN008,60-69,Heart Disease,chest discomfort fatigue shortness of breath,1,SYNTHETIC_EDUCATIONAL_ONLY
